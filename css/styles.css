@@ -15,22 +15,29 @@
 }
 .child1{
     min-height: 200px;
-    min-width: 200px;
+    flex-basis: 200px;
     background: blue;
     order:1;
     flex-shrink: 1;
 }
 .child2{
     height: 200px;
-    width: 200px;
+    flex-basis: 200px;
     background:crimson ;
     order:3;
     flex-shrink: 2;
 }
 .child3{
     height: 200px;
-    width: 200px;
+    flex-basis: 200px;
     background: darkmagenta;
     order:0;
+    flex-shrink: 1;
+}
+.child4{
+    height: 200px;
+    flex-basis: 200px;
+    background: greenyellow;
+    order:4;
     flex-shrink: 1;
 }
